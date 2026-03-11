@@ -1,38 +1,35 @@
------ Candidate Profile -----
-Name: keerthi
-Date of Birth: 07-07-2006
-Contact Number: 897564321
-Email: keerthi@gmail.com
+print("College Code: ANIL")
+print("College Name: ANITS College")
+print("Location: Visakhapatnam")
 
---- Education Details ---
-Degree: degreee
-University: kl University
-Year of Graduation: 2019
-CGPA: 7.9
+print("\nStudent Academic Report")
+print("=======================")
 
---- Work Experience ---
-Company Name: conginzant
-Job Role: data analyst
-Years of Experience: 7
-Skills:  Java,c
-Eligible for Senior Role
+print("Student ID: 14")
+print("Student Name: Jagadeesh")
+print("Marks: 85 78 90")
+print("Fee Paid: 50000")
+print("Average Marks: 84.33333333333333")
+print("CGPA: 8.43")
+print("Age: 21")
+print("Fee Balance: 40000")
+print("-----------------------------")
 
+print("Student ID: 7")
+print("Student Name: Aadhya")
+print("Marks: 88 92 80")
+print("Fee Paid: 45000")
+print("Average Marks: 86.66666666666667")
+print("CGPA: 8.67")
+print("Age: 23")
+print("Fee Balance: 45000")
+print("-----------------------------")
 
------ Candidate Profile -----
-Name: Krishna
-Date of Birth: 22-08-1999
-Contact Number: 9123456780
-Email: krishna@email.com
-
---- Education Details ---
-Degree: B.Sc Computer Science
-University: Delhi University
-Year of Graduation: 2021
-CGPA: 7.9
-
---- Work Experience ---
-Company Name: TCS
-Job Role: Junior Developer
-Years of Experience: 2
-Skills: Python, SQL
-Eligible for Junior Role
+print("Student ID: 23")
+print("Student Name: Krishna")
+print("Marks: 70 75 68")
+print("Fee Paid: 20000")
+print("Average Marks: 71.0")
+print("CGPA: 7.1")
+print("Age: 22")
+print("Fee Balance:70000")
