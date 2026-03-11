@@ -1,35 +1,47 @@
-print("College Code: anusha")
-print("College Name: ANITS College")
-print("Location: Visakhapatnam")
+print("1. Sum of first n natural numbers")
+print("2. First n prime numbers")
+print("3. Fibonacci series")
+print("4. Factorial")
 
-print("\nStudent Academic Report")
-print("=======================")
+choice = int(input("Enter your choice (1-4): "))
+n = int(input("Enter the value of n: "))
 
-print("Student ID: 34")
-print("Student Name: niveditha")
-print("Marks: 65 79 80")
-print("Fee Paid: 5000")
-print("Average Marks: 87.99333")
-print("CGPA: 9.3")
-print("Age: 29")
-print("Fee Balance: 4000")
-print("-----------------------------")
+if choice == 1:
+    s = 0
+    for i in range(1, n+1):
+        s = s + i
+    print("Sum of first", n, "natural numbers:", s)
 
-print("Student ID: 7")
-print("Student Name: Alekhya")
-print("Marks: 78 90 40")
-print("Fee Paid: 4500")
-print("Average Marks: 78.9996666667")
-print("CGPA: 9.7")
-print("Age: 26")
-print("Fee Balance: 100")
-print("-----------------------------")
+elif choice == 2:
+    count = 0
+    num = 2
+    print("First", n, "prime numbers:", end=" ")
+    while count < n:
+        prime = True
+        for i in range(2, num):
+            if num % i == 0:
+                prime = False
+                break
+        if prime:
+            print(num, end=" ")
+            count += 1
+        num += 1
 
-print("Student ID: 23")
-print("Student Name: munni")
-print("Marks: 65 79 78")
-print("Fee Paid: 2000")
-print("Average Marks: 98.0")
-print("CGPA: 9.8")
-print("Age: 12")
-print("Fee Balance:7000")
+elif choice == 3:
+    a = 0
+    b = 1
+    print("Fibonacci series:")
+    for i in range(n):
+        print(a, end=" ")
+        c = a + b
+        a = b
+        b = c
+
+elif choice == 4:
+    fact = 1
+    for i in range(1, n+1):
+        fact = fact * i
+    print("Factorial of", n, "is:", fact)
+
+else:
+    print("Invalid choice")
